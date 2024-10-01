@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import Form from "./Form";
 import TodoList from "./TodoList";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 export default function Todo() {
   const [todos, setTodos] = useState([]);
